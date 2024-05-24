@@ -23,11 +23,11 @@ class BSPSimulation extends PerformanceTestRunner {
 
   setup("post-auth-login", "Post auth stub login") withRequests postAuthApiSessionLogin
 
-  setup("post-Link", "post TFCP Link") withRequests postLink
+  setup("post-Link", "post BSP Link") withRequests postLink
 
-  setup("post-Balance", "post TFCP Balance") withRequests postBalance
+  setup("post-Balance", "post BSP Balance") withRequests postBalance
 
-  setup("post-Payment", "post TFCP Payment") withRequests postPayment
+  setup("post-Payment", "post BSP Payment") withRequests postPayment
 
   runSimulation()
 }
